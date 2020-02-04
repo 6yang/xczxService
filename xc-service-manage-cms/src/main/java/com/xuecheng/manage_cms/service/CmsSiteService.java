@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class SiteService {
+public class CmsSiteService {
 
     @Autowired
     private CmsSiteRepository cmsSiteRepository;
