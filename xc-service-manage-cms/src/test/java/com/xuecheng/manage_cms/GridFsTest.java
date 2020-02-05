@@ -62,6 +62,6 @@ public class GridFsTest {
     //删除文件
     @Test
     public void testDelFile() {
-        gridFsTemplate.delete(Query.query(Criteria.where("_id").is("5e381234410780080416b2e1")));
+        gridFsTemplate.delete(Query.query(Criteria.where("_id").is("5e3a68be4107804224667538")));
     }
 }

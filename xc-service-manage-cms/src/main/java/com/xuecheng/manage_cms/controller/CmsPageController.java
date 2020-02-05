@@ -73,4 +73,15 @@ public class CmsPageController implements CmsPageControllerApi {
     public ResponseResult deleteCmsPage(@PathVariable("id") String id) {
         return pageService.deleteCmsPage(id);
     }
+
+    /**
+     * 页面发布
+     * @param pageId
+     * @return : com.xuecheng.framework.model.response.ResponseResult
+     */
+    @Override
+    @PostMapping("/postPage/{pageId}")
+    public ResponseResult postPage(@PathVariable("pageId") String pageId) {
+        return pageService.postPage(pageId);
+    }
 }

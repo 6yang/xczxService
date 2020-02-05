@@ -7,6 +7,12 @@ spring:
     mongodb:
       uri:  mongodb://root:root@112.124.46.10:27017
       database: xc_cms
+  rabbitmq:
+      host: 112.124.46.10
+      port: 5672
+      username: xc
+      password: xc
+      virtualHost: /xc
   freemarker:
       cache: false  #关闭模板缓存，方便测试
       settings:
