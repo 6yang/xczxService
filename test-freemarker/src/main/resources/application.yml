@@ -2,7 +2,7 @@ server:
   port: 8888
 spring:
   application:
-    name: test-freemarker
+    name: filesystem-freemarker
   freemarker:
     cache: false
     settings:   # 关闭模板缓存，方便测试
